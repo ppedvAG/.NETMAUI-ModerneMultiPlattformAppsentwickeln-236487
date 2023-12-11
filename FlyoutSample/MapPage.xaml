@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FlyoutSample.MapPage"
+             Title="Karten">
+    <Grid RowDefinitions="Auto,*">
+        <Label Text="Einen Standort auf einer Karte zeigen."
+               FontAttributes="Bold"
+               HorizontalOptions="Center"
+               Margin="12" />
+
+        <ScrollView Grid.Row="1">
+            <StackLayout Padding="12,0,12,12" Spacing="6" WidthRequest="400">
+                <Label Text="Pin Name" Margin="0,24,0,0" />
+                <Entry x:Name="txNamePin" />
+                <Label Text="Durchgangsstraße" Margin="0,24,0,0" />
+                <Entry x:Name="txThoroughfare" />
+                <Label Text="Ort" />
+                <Entry x:Name="txLocality" />
+                <Label Text="Verwaltungsbereich" />
+                <Entry x:Name="txAdminArea" />
+                <Label Text="Land" />
+                <Entry x:Name="txCountry" />
+                <Label Text="Postleitzahl" />
+                <Entry x:Name="txZipCode" Keyboard="Numeric" />
+
+                <Button x:Name="launchPlacemark" Text="Gehe zu Adresse" Clicked="launchPlacemark_Clicked"  />
+
+                <Label Text="Latitude" Margin="0,24,0,0" />
+                <Entry x:Name="txLatitude" Keyboard="Numeric" />
+                <Label Text="Longitude" />
+                <Entry x:Name="txLongitude" Keyboard="Numeric" />
+
+                <Button x:Name="launchLocation" Text="Gehe zu Adresse" Clicked="launchLocation_Clicked"  />
+            </StackLayout>
+        </ScrollView>
+    </Grid>
+</ContentPage>

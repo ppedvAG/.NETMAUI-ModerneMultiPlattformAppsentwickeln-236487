@@ -1,0 +1,281 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = true
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net8.0-android
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = PlatformIntegrationDemo
+build_property.ProjectDir = C:\Users\Thomas\source\repos\.NETMAUI-ModerneMultiPlattformAppsentwickeln-236487\PlatformIntegrationDemo\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+
+[C:/Users/Thomas/source/repos/.NETMAUI-ModerneMultiPlattformAppsentwickeln-236487/PlatformIntegrationDemo/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PlatformIntegrationDemo.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/Thomas/source/repos/.NETMAUI-ModerneMultiPlattformAppsentwickeln-236487/PlatformIntegrationDemo/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PlatformIntegrationDemo.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/Thomas/source/repos/.NETMAUI-ModerneMultiPlattformAppsentwickeln-236487/PlatformIntegrationDemo/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PlatformIntegrationDemo.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/Thomas/source/repos/.NETMAUI-ModerneMultiPlattformAppsentwickeln-236487/PlatformIntegrationDemo/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PlatformIntegrationDemo.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/Thomas/source/repos/.NETMAUI-ModerneMultiPlattformAppsentwickeln-236487/PlatformIntegrationDemo/Views/AccelerometerPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PlatformIntegrationDemo.Views.AccelerometerPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\AccelerometerPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\AccelerometerPage.xaml
+
+[C:/Users/Thomas/source/repos/.NETMAUI-ModerneMultiPlattformAppsentwickeln-236487/PlatformIntegrationDemo/Views/AllSensorsPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PlatformIntegrationDemo.Views.AllSensorsPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\AllSensorsPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\AllSensorsPage.xaml
+
+[C:/Users/Thomas/source/repos/.NETMAUI-ModerneMultiPlattformAppsentwickeln-236487/PlatformIntegrationDemo/Views/AppInfoPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PlatformIntegrationDemo.Views.AppInfoPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\AppInfoPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\AppInfoPage.xaml
+
+[C:/Users/Thomas/source/repos/.NETMAUI-ModerneMultiPlattformAppsentwickeln-236487/PlatformIntegrationDemo/Views/BarometerPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PlatformIntegrationDemo.Views.BarometerPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\BarometerPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\BarometerPage.xaml
+
+[C:/Users/Thomas/source/repos/.NETMAUI-ModerneMultiPlattformAppsentwickeln-236487/PlatformIntegrationDemo/Views/BatteryPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PlatformIntegrationDemo.Views.BatteryPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\BatteryPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\BatteryPage.xaml
+
+[C:/Users/Thomas/source/repos/.NETMAUI-ModerneMultiPlattformAppsentwickeln-236487/PlatformIntegrationDemo/Views/BrowserPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PlatformIntegrationDemo.Views.BrowserPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\BrowserPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\BrowserPage.xaml
+
+[C:/Users/Thomas/source/repos/.NETMAUI-ModerneMultiPlattformAppsentwickeln-236487/PlatformIntegrationDemo/Views/ClipboardPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PlatformIntegrationDemo.Views.ClipboardPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\ClipboardPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\ClipboardPage.xaml
+
+[C:/Users/Thomas/source/repos/.NETMAUI-ModerneMultiPlattformAppsentwickeln-236487/PlatformIntegrationDemo/Views/ColorConvertersPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PlatformIntegrationDemo.Views.ColorConvertersPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\ColorConvertersPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\ColorConvertersPage.xaml
+
+[C:/Users/Thomas/source/repos/.NETMAUI-ModerneMultiPlattformAppsentwickeln-236487/PlatformIntegrationDemo/Views/CompassPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PlatformIntegrationDemo.Views.CompassPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\CompassPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\CompassPage.xaml
+
+[C:/Users/Thomas/source/repos/.NETMAUI-ModerneMultiPlattformAppsentwickeln-236487/PlatformIntegrationDemo/Views/ConnectivityPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PlatformIntegrationDemo.Views.ConnectivityPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\ConnectivityPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\ConnectivityPage.xaml
+
+[C:/Users/Thomas/source/repos/.NETMAUI-ModerneMultiPlattformAppsentwickeln-236487/PlatformIntegrationDemo/Views/ContactDetailsPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PlatformIntegrationDemo.Views.ContactDetailsPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\ContactDetailsPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\ContactDetailsPage.xaml
+
+[C:/Users/Thomas/source/repos/.NETMAUI-ModerneMultiPlattformAppsentwickeln-236487/PlatformIntegrationDemo/Views/ContactsPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PlatformIntegrationDemo.Views.ContactsPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\ContactsPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\ContactsPage.xaml
+
+[C:/Users/Thomas/source/repos/.NETMAUI-ModerneMultiPlattformAppsentwickeln-236487/PlatformIntegrationDemo/Views/DeviceInfoPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PlatformIntegrationDemo.Views.DeviceInfoPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\DeviceInfoPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\DeviceInfoPage.xaml
+
+[C:/Users/Thomas/source/repos/.NETMAUI-ModerneMultiPlattformAppsentwickeln-236487/PlatformIntegrationDemo/Views/EmailPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PlatformIntegrationDemo.Views.EmailPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\EmailPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\EmailPage.xaml
+
+[C:/Users/Thomas/source/repos/.NETMAUI-ModerneMultiPlattformAppsentwickeln-236487/PlatformIntegrationDemo/Views/FilePickerPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PlatformIntegrationDemo.Views.FilePickerPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\FilePickerPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\FilePickerPage.xaml
+
+[C:/Users/Thomas/source/repos/.NETMAUI-ModerneMultiPlattformAppsentwickeln-236487/PlatformIntegrationDemo/Views/FileSystemPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PlatformIntegrationDemo.Views.FileSystemPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\FileSystemPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\FileSystemPage.xaml
+
+[C:/Users/Thomas/source/repos/.NETMAUI-ModerneMultiPlattformAppsentwickeln-236487/PlatformIntegrationDemo/Views/FlashlightPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PlatformIntegrationDemo.Views.FlashlightPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\FlashlightPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\FlashlightPage.xaml
+
+[C:/Users/Thomas/source/repos/.NETMAUI-ModerneMultiPlattformAppsentwickeln-236487/PlatformIntegrationDemo/Views/GeocodingPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PlatformIntegrationDemo.Views.GeocodingPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\GeocodingPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\GeocodingPage.xaml
+
+[C:/Users/Thomas/source/repos/.NETMAUI-ModerneMultiPlattformAppsentwickeln-236487/PlatformIntegrationDemo/Views/GeolocationPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PlatformIntegrationDemo.Views.GeolocationPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\GeolocationPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\GeolocationPage.xaml
+
+[C:/Users/Thomas/source/repos/.NETMAUI-ModerneMultiPlattformAppsentwickeln-236487/PlatformIntegrationDemo/Views/GyroscopePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PlatformIntegrationDemo.Views.GyroscopePage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\GyroscopePage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\GyroscopePage.xaml
+
+[C:/Users/Thomas/source/repos/.NETMAUI-ModerneMultiPlattformAppsentwickeln-236487/PlatformIntegrationDemo/Views/HapticFeedbackPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PlatformIntegrationDemo.Views.HapticFeedbackPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\HapticFeedbackPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\HapticFeedbackPage.xaml
+
+[C:/Users/Thomas/source/repos/.NETMAUI-ModerneMultiPlattformAppsentwickeln-236487/PlatformIntegrationDemo/Views/KeepScreenOnPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PlatformIntegrationDemo.Views.KeepScreenOnPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\KeepScreenOnPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\KeepScreenOnPage.xaml
+
+[C:/Users/Thomas/source/repos/.NETMAUI-ModerneMultiPlattformAppsentwickeln-236487/PlatformIntegrationDemo/Views/LauncherPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PlatformIntegrationDemo.Views.LauncherPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\LauncherPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\LauncherPage.xaml
+
+[C:/Users/Thomas/source/repos/.NETMAUI-ModerneMultiPlattformAppsentwickeln-236487/PlatformIntegrationDemo/Views/MagnetometerPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PlatformIntegrationDemo.Views.MagnetometerPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\MagnetometerPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\MagnetometerPage.xaml
+
+[C:/Users/Thomas/source/repos/.NETMAUI-ModerneMultiPlattformAppsentwickeln-236487/PlatformIntegrationDemo/Views/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PlatformIntegrationDemo.Views.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\MainPage.xaml
+
+[C:/Users/Thomas/source/repos/.NETMAUI-ModerneMultiPlattformAppsentwickeln-236487/PlatformIntegrationDemo/Views/MapsPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PlatformIntegrationDemo.Views.MapsPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\MapsPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\MapsPage.xaml
+
+[C:/Users/Thomas/source/repos/.NETMAUI-ModerneMultiPlattformAppsentwickeln-236487/PlatformIntegrationDemo/Views/MediaPickerPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PlatformIntegrationDemo.Views.MediaPickerPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\MediaPickerPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\MediaPickerPage.xaml
+
+[C:/Users/Thomas/source/repos/.NETMAUI-ModerneMultiPlattformAppsentwickeln-236487/PlatformIntegrationDemo/Views/OrientationSensorPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PlatformIntegrationDemo.Views.OrientationSensorPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\OrientationSensorPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\OrientationSensorPage.xaml
+
+[C:/Users/Thomas/source/repos/.NETMAUI-ModerneMultiPlattformAppsentwickeln-236487/PlatformIntegrationDemo/Views/PermissionsPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PlatformIntegrationDemo.Views.PermissionsPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\PermissionsPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\PermissionsPage.xaml
+
+[C:/Users/Thomas/source/repos/.NETMAUI-ModerneMultiPlattformAppsentwickeln-236487/PlatformIntegrationDemo/Views/PhoneDialerPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PlatformIntegrationDemo.Views.PhoneDialerPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\PhoneDialerPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\PhoneDialerPage.xaml
+
+[C:/Users/Thomas/source/repos/.NETMAUI-ModerneMultiPlattformAppsentwickeln-236487/PlatformIntegrationDemo/Views/PreferencesPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PlatformIntegrationDemo.Views.PreferencesPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\PreferencesPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\PreferencesPage.xaml
+
+[C:/Users/Thomas/source/repos/.NETMAUI-ModerneMultiPlattformAppsentwickeln-236487/PlatformIntegrationDemo/Views/ScreenshotPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PlatformIntegrationDemo.Views.ScreenshotPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\ScreenshotPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\ScreenshotPage.xaml
+
+[C:/Users/Thomas/source/repos/.NETMAUI-ModerneMultiPlattformAppsentwickeln-236487/PlatformIntegrationDemo/Views/SecureStoragePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PlatformIntegrationDemo.Views.SecureStoragePage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\SecureStoragePage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\SecureStoragePage.xaml
+
+[C:/Users/Thomas/source/repos/.NETMAUI-ModerneMultiPlattformAppsentwickeln-236487/PlatformIntegrationDemo/Views/SemanticScreenReaderPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PlatformIntegrationDemo.Views.SemanticScreenReaderPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\SemanticScreenReaderPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\SemanticScreenReaderPage.xaml
+
+[C:/Users/Thomas/source/repos/.NETMAUI-ModerneMultiPlattformAppsentwickeln-236487/PlatformIntegrationDemo/Views/SharePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PlatformIntegrationDemo.Views.SharePage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\SharePage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\SharePage.xaml
+
+[C:/Users/Thomas/source/repos/.NETMAUI-ModerneMultiPlattformAppsentwickeln-236487/PlatformIntegrationDemo/Views/SMSPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PlatformIntegrationDemo.Views.SMSPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\SMSPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\SMSPage.xaml
+
+[C:/Users/Thomas/source/repos/.NETMAUI-ModerneMultiPlattformAppsentwickeln-236487/PlatformIntegrationDemo/Views/TextToSpeechPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PlatformIntegrationDemo.Views.TextToSpeechPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\TextToSpeechPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\TextToSpeechPage.xaml
+
+[C:/Users/Thomas/source/repos/.NETMAUI-ModerneMultiPlattformAppsentwickeln-236487/PlatformIntegrationDemo/Views/UnitConvertersPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PlatformIntegrationDemo.Views.UnitConvertersPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\UnitConvertersPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\UnitConvertersPage.xaml
+
+[C:/Users/Thomas/source/repos/.NETMAUI-ModerneMultiPlattformAppsentwickeln-236487/PlatformIntegrationDemo/Views/VibrationPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PlatformIntegrationDemo.Views.VibrationPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\VibrationPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\VibrationPage.xaml
+
+[C:/Users/Thomas/source/repos/.NETMAUI-ModerneMultiPlattformAppsentwickeln-236487/PlatformIntegrationDemo/Views/WebAuthenticatorPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PlatformIntegrationDemo.Views.WebAuthenticatorPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\WebAuthenticatorPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\WebAuthenticatorPage.xaml

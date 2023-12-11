@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!-- Registrierung Namespace Models nicht vergessen -->
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:converters="clr-namespace:MauiApp1.Converters"
+             x:Class="MauiApp1.MainPage">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Controls 1" Clicked="ToolbarItem1_Clicked" />
+        <ToolbarItem Text="Controls 2" Clicked="ToolbarItem2_Clicked" />
+        <ToolbarItem Text="Controls 3" Clicked="ToolbarItem3_Clicked" />
+        <ToolbarItem Text="WebView" Clicked="ToolbarItem4_Clicked" />
+    </ContentPage.ToolbarItems>
+    <ScrollView>
+        <VerticalStackLayout>
+            <VerticalStackLayout.Resources>
+                <!-- Registrierung FactorConverter -->
+                <converters:FactorConverter x:Key="FactorConverter"/>
+
+                <!-- Registrierung StaticValues -->
+                <x:String x:Key="buttonText1">Hallo Buttontext1</x:String>
+                <x:Double x:Key="defaultFontSize">24</x:Double>
+
+                <!-- Expliziter Style -->
+                <Style TargetType="Button" x:Key="specialButtonStyle">
+                    <Setter Property="BackgroundColor" Value="CornflowerBlue"/>
+                    <Setter Property="TextColor" Value="LightBlue"/>
+                    <Setter Property="FontSize" Value="30"/>
+                    <Setter Property="WidthRequest" Value="150"/>
+                </Style>
+
+                <!-- Impliziter Style -->
+                <Style TargetType="Button">
+                    <Setter Property="BackgroundColor" Value="OrangeRed"/>
+                    <Setter Property="TextColor" Value="Yellow"/>
+                    <Setter Property="CornerRadius" Value="30"/>
+                </Style>
+            </VerticalStackLayout.Resources>
+            <Button Text="Explizit" Style="{StaticResource specialButtonStyle}" WidthRequest="250"/>
+            <Button Text="{StaticResource buttonText1}" WidthRequest="250" BackgroundColor="{AppThemeBinding Dark=Blue, Light= Yellow}" TextColor="{AppThemeBinding Dark=White, Light=Black}" FontSize="{StaticResource defaultFontSize}" />
+
+            <HorizontalStackLayout HorizontalOptions="Center" Spacing="10">
+                <Label 
+                    Text="{Binding Source={x:Reference sliderWert}, Path=Value}" 
+                    VerticalOptions="Center" />
+                <Slider 
+                    x:Name="sliderWert" 
+                    Minimum="12" 
+                    Maximum="100"
+                    Value="12"
+                    WidthRequest="300"
+                    Margin="20,10,20,10" />
+                <Stepper 
+                    Minimum="{Binding Source={x:Reference sliderWert}, Path=Minimum}" 
+                    Maximum="{Binding Source={x:Reference sliderWert}, Path=Maximum}" 
+                    Value="{Binding Source={x:Reference sliderWert}, Path=Value}" />
+            </HorizontalStackLayout>
+            <Label Text="Schau an wie groß ich bin" HorizontalOptions="Center" FontSize="{Binding Source={x:Reference sliderWert}, Path=Value}"/>
+            <StackLayout BindingContext="{x:Reference sliderWert}" HorizontalOptions="Center" Spacing="5">
+                <Label Text="{Binding Minimum, StringFormat='MinimumHeightRequest: {0}'}"/>
+                <!-- Nicht vergessen, Registrierung Namespace + Registrierung in .Resources-->
+                <Label Text="{Binding Source={x:Reference sliderWert}, Path=Value, StringFormat='Value x 2.5: {0}', Converter={StaticResource FactorConverter}, ConverterParameter='2,5'}" />
+                <Label Text="{x:OnPlatform Android='Hallo Anroid', WinUI='Windows UI' }" Background="red" WidthRequest="250" HorizontalOptions="Start" />
+                <Label Text="{Binding Value, StringFormat='Value: {0}'}"/>
+                <Label Text="{Binding Maximum, StringFormat='MaximumHeightRequest: {0}'}"/>
+            </StackLayout>
+
+            <Button Text="Zur zweiten Seite" Clicked="Button_Clicked" WidthRequest="150" />
+            <HorizontalStackLayout HorizontalOptions="Center" Spacing="10">
+                <Label Text="Switch-Test Start ActivityIndicator" VerticalOptions="Center" />
+                <Switch x:Name="switch1" IsToggled="False"/>
+            </HorizontalStackLayout>
+            <ActivityIndicator IsRunning="{Binding Source={x:Reference switch1}, Path=IsToggled}"/>
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
+

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:models="clr-namespace:CollectionViewMVVM.Models"
+             xmlns:viewModel="clr-namespace:CollectionViewMVVM.ViewModels"
+             xmlns:strings="clr-namespace:CollectionViewMVVM.Resources.Strings"
+             x:DataType="viewModel:CollectionPageViewModel_CommunityToolkit"
+             x:Class="CollectionViewMVVM.CollectionPage"
+             Title="CollectionView">
+    <StackLayout>
+        <Button Text="{x:Static strings:CollectionPage.btnChangeLanguage}" WidthRequest="200" Clicked="Button_Clicked"/>
+
+        <!-- Refreshview anstatt ActivityIndicator. Vorteil Aktualisierung des Container und mit runterziehen des Bildschirms -->
+        <RefreshView IsRefreshing="{Binding IsLoading}" RefreshColor="Teal" Command="{Binding ButtonClickLoadCommand}">
+            <CollectionView Grid.Column="2" SelectionMode="Single" ItemsSource="{Binding Monkeys}">
+                <CollectionView.ItemsLayout>
+                    <GridItemsLayout Orientation="Vertical" Span="2" />
+                </CollectionView.ItemsLayout>
+
+                <CollectionView.ItemTemplate>
+                    <DataTemplate x:DataType="models:Monkey">
+                        <HorizontalStackLayout Padding="10">
+                            <Image
+                        Aspect="AspectFill"
+                        HeightRequest="100"
+                        Source="{Binding Image}"
+                        WidthRequest="100" />
+                            <Label VerticalOptions="Center">
+                                <Label.Text>
+                                    <MultiBinding StringFormat="{}{0} | {1}">
+                                        <Binding Path="Name" />
+                                        <Binding Path="Location" />
+                                    </MultiBinding>
+                                </Label.Text>
+                            </Label>
+                        </HorizontalStackLayout>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </RefreshView>
+        <HorizontalStackLayout HorizontalOptions="Center" Spacing="10">
+            <Button Text="{x:Static strings:CollectionPage.btnLoadData}" Command="{Binding ButtonClickLoadCommand}" WidthRequest="180"/>
+            <Button Text="{x:Static strings:CollectionPage.btnClearData}" Command="{Binding ButtonClickClearCommand}" WidthRequest="180"/>
+            <Button Text="{x:Static strings:CollectionPage.btnRemoveFirst}" Command="{Binding ButtonClickRemoveCommand}" CommandParameter="0" WidthRequest="220"/>
+        </HorizontalStackLayout>
+    </StackLayout>
+</ContentPage>

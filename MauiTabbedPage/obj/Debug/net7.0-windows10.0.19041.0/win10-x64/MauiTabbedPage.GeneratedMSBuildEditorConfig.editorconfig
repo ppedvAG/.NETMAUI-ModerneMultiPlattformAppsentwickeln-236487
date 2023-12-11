@@ -1,0 +1,67 @@
+is_global = true
+build_property.TargetFramework = net7.0-windows10.0.19041.0
+build_property.TargetPlatformMinVersion = 10.0.17763.0
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 9A19103F-16F7-4668-BE54-9A1E7A4F7556
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = MauiTabbedPage
+build_property.ProjectDir = C:\Users\Thomas\source\repos\.NETMAUI-ModerneMultiPlattformAppsentwickeln-236487\MauiTabbedPage\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+
+[C:/Users/Thomas/source/repos/.NETMAUI-ModerneMultiPlattformAppsentwickeln-236487/MauiTabbedPage/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiTabbedPage.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/Thomas/source/repos/.NETMAUI-ModerneMultiPlattformAppsentwickeln-236487/MauiTabbedPage/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiTabbedPage.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/Thomas/source/repos/.NETMAUI-ModerneMultiPlattformAppsentwickeln-236487/MauiTabbedPage/CustomControl.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiTabbedPage.CustomControl.xaml
+build_metadata.AdditionalFiles.TargetPath = CustomControl.xaml
+build_metadata.AdditionalFiles.RelativePath = CustomControl.xaml
+
+[C:/Users/Thomas/source/repos/.NETMAUI-ModerneMultiPlattformAppsentwickeln-236487/MauiTabbedPage/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiTabbedPage.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[C:/Users/Thomas/source/repos/.NETMAUI-ModerneMultiPlattformAppsentwickeln-236487/MauiTabbedPage/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiTabbedPage.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/Thomas/source/repos/.NETMAUI-ModerneMultiPlattformAppsentwickeln-236487/MauiTabbedPage/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiTabbedPage.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/Thomas/source/repos/.NETMAUI-ModerneMultiPlattformAppsentwickeln-236487/MauiTabbedPage/TabPageCollectionView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiTabbedPage.TabPageCollectionView.xaml
+build_metadata.AdditionalFiles.TargetPath = TabPageCollectionView.xaml
+build_metadata.AdditionalFiles.RelativePath = TabPageCollectionView.xaml
+
+[C:/Users/Thomas/source/repos/.NETMAUI-ModerneMultiPlattformAppsentwickeln-236487/MauiTabbedPage/TabPageFlashlight.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiTabbedPage.TabPageFlashlight.xaml
+build_metadata.AdditionalFiles.TargetPath = TabPageFlashlight.xaml
+build_metadata.AdditionalFiles.RelativePath = TabPageFlashlight.xaml
+
+[C:/Users/Thomas/source/repos/.NETMAUI-ModerneMultiPlattformAppsentwickeln-236487/MauiTabbedPage/TabPageListView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiTabbedPage.TabPageListView.xaml
+build_metadata.AdditionalFiles.TargetPath = TabPageListView.xaml
+build_metadata.AdditionalFiles.RelativePath = TabPageListView.xaml

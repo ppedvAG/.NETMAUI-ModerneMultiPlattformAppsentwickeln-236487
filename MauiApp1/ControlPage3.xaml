@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp1.ControlPage3"
+             Title="Control Page 3">
+    <ScrollView>
+        <VerticalStackLayout>
+            <Label 
+                Text="Steuerelemente Seite 3"
+                FontSize="24"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" />
+            <Button Text="Zurück" WidthRequest="100" HorizontalOptions="Center" Clicked="ButtonBack_Clicked" />
+
+            <Frame BorderColor="Gray" CornerRadius="5" Margin="20" Padding="8" WidthRequest="416" HorizontalOptions="Center">
+                <StackLayout WidthRequest="400">
+                    <Label Text="ListView" FontSize="14" FontAttributes="Bold" />
+                    <Label Text="Ermöglichen die Darstellung von interaktiven Listenelementen" />
+                    <BoxView Color="Gray" HeightRequest="2" HorizontalOptions="Fill" />
+
+                    <HorizontalStackLayout HorizontalOptions="Center" Spacing="10">
+                        <TableView Intent="Form">
+                            <TableRoot>
+                                <TableSection Title="Ring">
+                                    <SwitchCell Text="New Voice Mail" On="False"/>
+                                    <SwitchCell Text="New Mail" On="True"/>
+                                </TableSection>
+                            </TableRoot>
+                        </TableView>
+                    </HorizontalStackLayout>
+                </StackLayout>
+            </Frame>
+
+            <Frame BorderColor="Gray" CornerRadius="5" Margin="20" Padding="8" WidthRequest="416" HorizontalOptions="Center">
+                <StackLayout WidthRequest="400">
+                    <Label Text="Image" FontSize="14" FontAttributes="Bold" />
+                    <Label Text="Ermöglichen die Darstellung von Bilder" />
+                    <Label Text="Mögliche Quellen:" FontSize="20" />
+                    <Label Text=". Internet (URI)" FontSize="14" />
+                    <Label Text=". Gemeinsame Resourcen"  FontSize="14" />
+                    <BoxView Color="Gray" HeightRequest="2" HorizontalOptions="Fill" />
+
+                    <Image Source="https://aka.ms/campus.jpg"  Aspect="AspectFit" />
+
+                </StackLayout>
+            </Frame>
+
+            <Frame BorderColor="Gray" CornerRadius="5" Margin="20" Padding="8" WidthRequest="416" HorizontalOptions="Center">
+                <StackLayout WidthRequest="400">
+                    <Label Text="BoxView" FontSize="14" FontAttributes="Bold" />
+                    <Label Text="Ermöglichen die Darstellung von einem Rechteck" />
+                    <BoxView Color="Gray" HeightRequest="2" HorizontalOptions="Fill" Margin="10,0,10,0" />
+
+                    <BoxView Color="Blue"
+                        WidthRequest="100"
+                        HeightRequest="100" />
+
+                </StackLayout>
+            </Frame>
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

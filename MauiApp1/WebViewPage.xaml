@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp1.WebViewPage"
+             Title="WebViewPage">
+    <VerticalStackLayout>
+        <Label 
+            Text="Welcome to .NET MAUI!"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+        <Button Text="Zurück" WidthRequest="100" HorizontalOptions="Center" Clicked="ButtonBack_Clicked" />
+        <ScrollView HorizontalOptions="StartAndExpand" VerticalOptions="StartAndExpand">
+            <WebView
+                Source="https://learn.microsoft.com/de-de/search/?terms=maui"
+                HeightRequest="{OnPlatform WinUI=1080}"
+                WidthRequest="{OnPlatform WinUI=1920}"
+                HorizontalOptions="FillAndExpand"
+                VerticalOptions="FillAndExpand"
+            />
+        </ScrollView>
+    </VerticalStackLayout>
+</ContentPage>
