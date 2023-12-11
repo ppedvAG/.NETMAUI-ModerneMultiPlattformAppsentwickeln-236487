@@ -178,7 +178,8 @@ AppShell oder Pages
 
 Konfiguration in App.xaml.cs
 
-Bezug zum Stand bis Januar 2022: Es ist möglich, dass sich seitdem Änderungen oder Aktualisierungen ergeben haben. Zum Zeitpunkt meines letzten Wissensstandes gab es in .NET MAUI (Multi-platform App UI) die Konzepte der Shell und der nicht-Shell-Anwendung. Hier sind die grundlegenden Unterschiede:
+Zum Zeitpunkt meines letzten Wissensstandes gab es in .NET MAUI (Multi-platform App UI) die Konzepte der Shell und der nicht-Shell-Anwendung. 
+Hier sind die grundlegenden Unterschiede:
 
 1. **Shell-Anwendung: (**MainPage = new AppShell();**)**
    1. Die Shell ist ein neues Konzept in .NET MAUI, das eine vereinfachte Möglichkeit bietet, die Benutzeroberfläche und Navigation zu definieren.
