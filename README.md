@@ -1,77 +1,69 @@
 ﻿# .NETMAUI-ModerneMultiPlattformAppsentwickeln-236487
 KursRepository zu Kurs .NET MAUI - Moderne Multi Plattform Apps entwickeln der ppedv AG
 
-Android-Emulator
+# Android-Emulator
 
-Hardwarebeschleunigung
+### Hardwarebeschleunigung
 
-# Aktivieren der Hardwarebeschleunigung mit Android-Emulatoren (Hyper-V & AEHD)
+## Aktivieren der Hardwarebeschleunigung mit Android-Emulatoren (Hyper-V & AEHD)
 
 [Link zu Learn-Microsoft](https://learn.microsoft.com/de-de/dotnet/maui/android/emulator/hardware-acceleration?view=net-maui-8.0)
 
 Im Emulator Spracheinstellung konfigurieren! (Default: Englisch)
 
-***Probleme:***
+### Probleme:
 
-TableView Title=“Ring“
+##### TableView Title=“Ring“
 
 Auf Android Emulator = Okay
-
 Auf Windows Emulator = Text in Kleinschrift! (Ist als Bug aufgeführt)
 
-DatePicker Format=“dd.MM.yyyy“
+##### DatePicker Format=“dd.MM.yyyy“
 
 Auf Android Emulator = Okay
-
 Auf Windows Emulator = „.“ Wird nicht akzeptiert, nur „-„ und „/“
-
 - Keine Einstellung für die Sprache möglich
 
-WebView Höhe Breite
+##### WebView Höhe Breite
 
 Auf Android Emulator = Okay
-
 Auf Windows Emulator = Muss mindestens „HeightRequest“ angegeben werden
 
-**Workaround:**
+#### Workaround:
+
+```
 <WebView
-
-`  `Source="https://learn.microsoft.com/de-de/search/?terms=maui"
-
-`  `HeightRequest="{OnPlatform WinUI=1080}"
-
-`  `WidthRequest="{OnPlatform WinUI=1920}"
-
-`  `HorizontalOptions="FillAndExpand"
-
-`  `VerticalOptions="FillAndExpand"
-
+    Source="https://learn.microsoft.com/de-de/search/?terms=maui"
+    HeightRequest="{OnPlatform WinUI=1080}"
+    WidthRequest="{OnPlatform WinUI=1920}"
+    HorizontalOptions="FillAndExpand"
+    VerticalOptions="FillAndExpand"
 />
+```
 
 
 
 Berechtigungen über direkte Auswahl der CheckBoxen innerhalb VisualStudio
 
-Die Einträge mussten mit dem TextEditor eingetragen werden, da die Anwendung nicht mehr benutzt werden konnte. Auch das deselektieren hat das Problem nicht beheben können, die Datei musste ersetzt werden.
+Die Einträge mussten mit dem TextEditor eingetragen werden, da die Anwendung nicht mehr benutzt werden konnte.
+Auch das deselektieren hat das Problem nicht beheben können, die Datei musste ersetzt werden.
 
 ![](MD/ppedv_NETMAUI.001.png)
 
 
 
-Testanwendungen: Kurzbeschreibung
+# Testanwendungen: Kurzbeschreibung
 
-![Ein Bild, das Text, Elektronik, Screenshot, Display enthält.
+![](MD/ppedv_NETMAUI.002.png)
 
-Automatisch generierte Beschreibung](MD/ppedv_NETMAUI.002.png)
-
-1) MauiApp1
-   1. MainPage.xaml
+1) ### MauiApp1
+   1. #### MainPage.xaml
       1. Unterschiedliche Maui Controls
       1. ContentPage.ToolBarItems
       1. StaticResources / Resources innerhalb View
       1. Implizit / Explizit Style
 
-   1. ControlPage1.xaml „Demo: Ansicht nur WinUI“
+   1. #### ControlPage1.xaml „Demo: Ansicht nur WinUI“
       1. <Label …/>
       1. <Button …/>
       1. <ImageButton …/>
@@ -79,7 +71,7 @@ Automatisch generierte Beschreibung](MD/ppedv_NETMAUI.002.png)
       1. <Editor …/>
       1. <SearchBar …/>
 
-   1. ControlPage2.xaml „Demo: Ansicht nur WinUI“
+   1. #### ControlPage2.xaml „Demo: Ansicht nur WinUI“
       1. <Checkbox …/>
       1. <Switch …/>
       1. <ProgressBar …/>
@@ -88,109 +80,104 @@ Automatisch generierte Beschreibung](MD/ppedv_NETMAUI.002.png)
       1. <TimePicker …/>
       1. <Picker …/>
 
-   1. ControlPage3.xaml „Demo: Ansicht nur WinUI“
+   1. #### ControlPage3.xaml „Demo: Ansicht nur WinUI“
       1. <TableView …/>
       1. <Image …/>
       1. <BoxView …/>
 
-   1. WebView.xaml „Demo: Ansicht nur WinUI“
+   1. #### WebView.xaml „Demo: Ansicht nur WinUI“
 
-![](MD/ppedv_NETMAUI.003.png)
+      ![](MD/ppedv_NETMAUI.003.png)
 
 
 
-1) CollectionView
+1) ### CollectionView
 
-![](MD/ppedv_NETMAUI.004.png)
+    ![](MD/ppedv_NETMAUI.004.png)
 
-1) FlyoutSample
-   1. MainPageFlyout.xaml.cs
-   1. HomePage.xaml
-   1. SettingsPage.xaml
-   1. FlashlightPage.xaml
-      1. Aktivieren der Taschenlampe
-   1. Map.xaml
-      1. Anzeige einer Karte mit Angabe des Ortes oder Koordinaten
+1) ### FlyoutSample
+   1. #### MainPageFlyout.xaml.cs
+   1. #### HomePage.xaml
+   1. #### SettingsPage.xaml
+   1. #### FlashlightPage.xaml
+      1. ##### Aktivieren der Taschenlampe
+   1. #### Map.xaml
+      1. ##### Anzeige einer Karte mit Angabe des Ortes oder Koordinaten
 
          Installierte Kartenanwendung auf Gerät nötig!
 
-   1. DateienPage.xaml
-      1. Öffnen einer Textdatei und anzeigen im <Editor />
+   1. #### DateienPage.xaml
+      1. ##### Öffnen einer Textdatei und anzeigen im <Editor />
 
-![](MD/ppedv_NETMAUI.005.png)
+      ![](MD/ppedv_NETMAUI.005.png)
 
 
 
-1) MauiTabbedPage
-   1. TabPageListView
-   1. TabPageCollectionView
-   1. TabPageFlashLight
+1) ### MauiTabbedPage
+   1. #### TabPageListView
+   1. #### TabPageCollectionView
+   1. #### TabPageFlashLight
 
       ![](MD/ppedv_NETMAUI.006.png)
 
-1) MauiCustomControl
-   1. Selbst erstelltes Steuerelement
+1) ### MauiCustomControl
+   1. #### Selbst erstelltes Steuerelement
 
       ![](MD/ppedv_NETMAUI.007.png)
 
-1) MauiContentPageNavigation
-   1. MainPage
-   1. SecondPage
+1) ### MauiContentPageNavigation
+   1. #### MainPage
+   1. #### SecondPage
 
       ![](MD/ppedv_NETMAUI.008.png)
 
-PageNavigation
-
-DisplayAlert
-
-Erstellung Dynamische Buttons
+        ##### PageNavigation
+        ##### DisplayAlert
+        ##### Erstellung Dynamische Buttons
 
 
 
-1) CollectionViewMVVM
-   1. Demo Laden von Daten via HttpClient()
+1) ### CollectionViewMVVM
+    1. #### Demo Laden von Daten via HttpClient()
+        ![](MD/ppedv_NETMAUI.009.png)
 
-      ![](MD/ppedv_NETMAUI.009.png)
+    1. Demo ändern der Sprache mit Auswahl
 
-1. Demo ändern der Sprache mit Auswahl
+        ![](MD/ppedv_NETMAUI.010.png) 
 
-   ![](MD/ppedv_NETMAUI.010.png) 
-
-![](MD/ppedv_NETMAUI.011.png)
-
-
-
-1) AddOn: (Quelle Microsoft)
-   1. PlatformIntegrationDemo
-      1. Demo Plattform spezifische Funktionen
-
-         ![](MD/ppedv_NETMAUI.012.png)
-
-
-1. TodoSQLite
-   1. Demo ToDo-Liste mit SQLite DB Erstellung
-
-      ![](MD/ppedv_NETMAUI.013.png)
+        ![](MD/ppedv_NETMAUI.011.png)
 
 
 
-AppShell oder Pages
+**AddOn: (Quelle Microsoft)**
+- *PlatformIntegrationDemo*
+- *Demo Plattform spezifische Funktionen*
 
-Konfiguration in App.xaml.cs
+    ![](MD/ppedv_NETMAUI.012.png)
+
+### 1. TodoSQLite
+- Demo ToDo-Liste mit SQLite DB Erstellung
+
+    ![](MD/ppedv_NETMAUI.013.png)
+
+
+# AppShell oder Pages
+
+## Konfiguration in App.xaml.cs
 
 Zum Zeitpunkt meines letzten Wissensstandes gab es in .NET MAUI (Multi-platform App UI) die Konzepte der Shell und der nicht-Shell-Anwendung. 
 Hier sind die grundlegenden Unterschiede:
 
 1. **Shell-Anwendung: (**MainPage = new AppShell();**)**
-   1. Die Shell ist ein neues Konzept in .NET MAUI, das eine vereinfachte Möglichkeit bietet, die Benutzeroberfläche und Navigation zu definieren.
-   1. Sie ermöglicht eine deklarative UI-Definition und definiert Navigationsstrukturen auf höherer Ebene.
-   1. Die Shell bietet vordefinierte Layouts für häufige Anwendungsfälle wie Tab-Navigation und Flyout-Menüs.
-   1. Sie erleichtert die Implementierung von Standardnavigationselementen in Ihrer Anwendung.
+- Die Shell ist ein neues Konzept in .NET MAUI, das eine vereinfachte Möglichkeit bietet, die Benutzeroberfläche und Navigation zu definieren.
+- Sie ermöglicht eine deklarative UI-Definition und definiert Navigationsstrukturen auf höherer Ebene.
+- Die Shell bietet vordefinierte Layouts für häufige Anwendungsfälle wie Tab-Navigation und Flyout-Menüs.
+- Sie erleichtert die Implementierung von Standardnavigationselementen in Ihrer Anwendung.
 
 1. **Normale Anwendung (nicht-Shell): (**MainPage = new MainPage();**)**
-   1. Eine nicht-Shell-Anwendung in .NET MAUI erfordert mehr manuelle Konfiguration der Benutzeroberfläche und Navigation.
-   1. Entwickler haben mehr Freiheit bei der Definition von benutzerdefinierten Navigationsstrukturen und Layouts.
-   1. Diese Art von Anwendung eignet sich gut für Projekte, die spezifische UI-Anforderungen haben und eine höhere Anpassbarkeit erfordern.
+- Eine nicht-Shell-Anwendung in .NET MAUI erfordert mehr manuelle Konfiguration der Benutzeroberfläche und Navigation.
+- Entwickler haben mehr Freiheit bei der Definition von benutzerdefinierten Navigationsstrukturen und Layouts.
+- Diese Art von Anwendung eignet sich gut für Projekte, die spezifische UI-Anforderungen haben und eine höhere Anpassbarkeit erfordern.
 
 Die Wahl zwischen Shell und nicht-Shell hängt von den Anforderungen Ihrer Anwendung ab. Shell erleichtert die schnelle Entwicklung von Anwendungen mit standardisierten Navigationsstrukturen, während nicht-Shell-Anwendungen mehr Flexibilität für spezielle Anforderungen bieten.
 
