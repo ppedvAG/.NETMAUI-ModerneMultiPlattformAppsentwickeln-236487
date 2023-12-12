@@ -50,7 +50,7 @@ Auch das deselektieren hat das Problem nicht beheben können, die Datei musste e
 
 ![](MD/ppedv_NETMAUI.001.png)
 
-
+---
 
 # Testanwendungen: Kurzbeschreibung
 
@@ -89,11 +89,13 @@ Auch das deselektieren hat das Problem nicht beheben können, die Datei musste e
 
       ![](MD/ppedv_NETMAUI.003.png)
 
-
+    ---
 
 1) ### CollectionView
 
     ![](MD/ppedv_NETMAUI.004.png)
+
+    ---
 
 1) ### FlyoutSample
    1. #### MainPageFlyout.xaml.cs
@@ -111,7 +113,7 @@ Auch das deselektieren hat das Problem nicht beheben können, die Datei musste e
 
       ![](MD/ppedv_NETMAUI.005.png)
 
-
+    ---
 
 1) ### MauiTabbedPage
    1. #### TabPageListView
@@ -120,10 +122,14 @@ Auch das deselektieren hat das Problem nicht beheben können, die Datei musste e
 
       ![](MD/ppedv_NETMAUI.006.png)
 
+    ---
+
 1) ### MauiCustomControl
    1. #### Selbst erstelltes Steuerelement
 
       ![](MD/ppedv_NETMAUI.007.png)
+
+    ---
 
 1) ### MauiContentPageNavigation
    1. #### MainPage
@@ -135,19 +141,20 @@ Auch das deselektieren hat das Problem nicht beheben können, die Datei musste e
         ##### DisplayAlert
         ##### Erstellung Dynamische Buttons
 
-
+    ---
 
 1) ### CollectionViewMVVM
     **Kurzeinführung** 
     - CommunityToolkit.Mvvm
-```Paket-Manager-Konsole
+    ````
         Install-Package CommunityToolkit.Mvvm
-```
-    und
+    ````
+
+      und
     - Newtonsoft.Json
-```Paket-Manager-Konsole
+    ````console
         Install-Package Newtonsoft.Json
-```
+    ````
 
     1. #### Demo Laden von Daten via HttpClient()
         ![](MD/ppedv_NETMAUI.009.png)
@@ -156,21 +163,25 @@ Auch das deselektieren hat das Problem nicht beheben können, die Datei musste e
 
         ![](MD/ppedv_NETMAUI.010.png) 
 
+
         ![](MD/ppedv_NETMAUI.011.png)
 
+---
 
-
-**AddOn: (Quelle Microsoft)**
+## AddOn: (Quelle Microsoft)
 ### 1. PlatformIntegrationDemo
 - *Demo Plattform spezifische Funktionen*
 
     ![](MD/ppedv_NETMAUI.012.png)
+
+    ---
 
 ### 2. TodoSQLite
 - Demo ToDo-Liste mit SQLite DB Erstellung
 
     ![](MD/ppedv_NETMAUI.013.png)
 
+    ---
 
 # AppShell oder Pages
 
