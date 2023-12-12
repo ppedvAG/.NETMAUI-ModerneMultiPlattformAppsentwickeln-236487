@@ -138,6 +138,17 @@ Auch das deselektieren hat das Problem nicht beheben können, die Datei musste e
 
 
 1) ### CollectionViewMVVM
+    **Kurzeinführung** 
+    - CommunityToolkit.Mvvm
+```Paket-Manager-Konsole
+        Install-Package CommunityToolkit.Mvvm
+```
+    und
+    - Newtonsoft.Json
+```Paket-Manager-Konsole
+        Install-Package Newtonsoft.Json
+```
+
     1. #### Demo Laden von Daten via HttpClient()
         ![](MD/ppedv_NETMAUI.009.png)
 
@@ -150,12 +161,12 @@ Auch das deselektieren hat das Problem nicht beheben können, die Datei musste e
 
 
 **AddOn: (Quelle Microsoft)**
-- *PlatformIntegrationDemo*
+### 1. PlatformIntegrationDemo
 - *Demo Plattform spezifische Funktionen*
 
     ![](MD/ppedv_NETMAUI.012.png)
 
-### 1. TodoSQLite
+### 2. TodoSQLite
 - Demo ToDo-Liste mit SQLite DB Erstellung
 
     ![](MD/ppedv_NETMAUI.013.png)
@@ -165,7 +176,7 @@ Auch das deselektieren hat das Problem nicht beheben können, die Datei musste e
 
 ## Konfiguration in App.xaml.cs
 
-Zum Zeitpunkt meines letzten Wissensstandes gab es in .NET MAUI (Multi-platform App UI) die Konzepte der Shell und der nicht-Shell-Anwendung. 
+Es gibt in .NET MAUI (Multi-platform App UI) die Konzepte der Shell und der nicht-Shell-Anwendung. 
 Hier sind die grundlegenden Unterschiede:
 
 1. **Shell-Anwendung: (**MainPage = new AppShell();**)**
