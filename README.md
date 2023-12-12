@@ -146,7 +146,7 @@ Auch das deselektieren hat das Problem nicht beheben können, die Datei musste e
 1) ### CollectionViewMVVM
     **Kurzeinführung** 
     - CommunityToolkit.Mvvm
-    ````
+    ````console
         Install-Package CommunityToolkit.Mvvm
     ````
 
